@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Bilbo&display=swap"); /* h1 */
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap"); /* main body */
+@import url("https://fonts.googleapis.com/css?family=Merriweather&display=swap");
+
+body {
+  color: #43282d;
+  font-family: Lato, Arial, Verdana, Tahoma, sans-serif;
+}
+
+h1 {
+  font-family: "Bilbo", cursive;
+  font-size: 4.5rem;
+  color: #b51c14;
+}
+
+h1::first-letter {
+  font-size: 5rem;
+}
+
+h2 {
+  text-shadow: 1px 1px 2px #43282d;
+}
+
+h3 {
+  font-family: Merriweather;
+}
+
+h5 {
+  font-size: 1.2em;
+  color: #954b2e;
+}
+
+p small {
+  color: white;
+}
+
+footer {
+  font-size: 0.8rem;
+}
+
+nav a,
+.carousel-caption a,
+.day {
+  color: #954b2e !important;
+}
+
+footer a {
+  color: #43282d;
+}
+
+a:hover {
+  color: #b51c14 !important;
+}
+
+.icons {
+  color: #43282d;
+  font-size: 2em;
+}
+
+.arrows {
+  color: #43282d;
+}

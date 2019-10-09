@@ -1,0 +1,41 @@
+/* Miscellaneous CSS */
+
+#button {
+  background-color: #43282d;
+  border: 1px solid #715250;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 3%;
+}
+
+#button:hover {
+  background-color: #954b2e;
+}
+
+footer {
+  height: 50px;
+}
+
+.separatorRed {
+  height: 2px;
+  background-color: #b51c14;
+  margin-top: 5%;
+}
+.separatorBrown {
+  height: 2px;
+  background-color: #954b2e;
+  margin-top: 5%;
+}
+
+.separatorGrey {
+  height: 2px;
+  background-color: #43282d;
+  margin-top: 5%;
+}
+
+.btnOverRide {
+  background-color: #43282d !important;
+  border: 1px solid #715250 !important;
+  border-radius: 5px;
+  color: white;
+}

@@ -1,0 +1,40 @@
+/* LAYOUT CSS */
+
+footer {
+  text-align: center;
+  padding-top: 3%;
+  height: 200px;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+}
+
+.carousel-item {
+  text-align: center;
+  margin-left: -10%;
+}
+
+section ul {
+  padding-left: 0;
+}
+
+.addresses {
+  display: none;
+}
+
+@media only screen and (min-width: 769px) {
+  #logo {
+    width: 200px;
+  }
+  .carousel-item {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 635px) {
+  .addresses {
+    display: block;
+  }
+}
