@@ -1,5 +1,6 @@
 /* Miscellaneous CSS */
 
+/* sets button colour on carousel */
 #button {
   background-color: #43282d;
   border: 1px solid #715250;
@@ -16,6 +17,7 @@ footer {
   height: 50px;
 }
 
+/* line separators */
 .separatorRed {
   height: 2px;
   background-color: #b51c14;
@@ -33,9 +35,19 @@ footer {
   margin-top: 5%;
 }
 
+/* overrides bootstrap's button colours on modal */
 .btnOverRide {
   background-color: #43282d !important;
   border: 1px solid #715250 !important;
   border-radius: 5px;
   color: white;
+}
+
+.btnOverRide:hover {
+  background-color: #954b2e !important;
+}
+
+/* gives album pics border when hovered */
+.bd-placeholder-img:hover {
+  border: 2px solid #43282d;
 }

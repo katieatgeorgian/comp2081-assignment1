@@ -6,26 +6,67 @@ footer {
   height: 200px;
 }
 
+/* logo image */
 #logo {
   width: 100px;
   height: auto;
 }
 
+/* each slide in the carousel */
 .carousel-item {
   text-align: center;
-  margin-left: -10%;
 }
 
-section ul {
+/* the image in each slide */
+.carousel-image {
+  margin-left: -90%;
+}
+
+/* menu in footer */
+footer section ul {
   padding-left: 0;
 }
 
+/* in mobile addresses in footer don't show */
 .addresses {
   display: none;
 }
 
+/* images in welcome section */
 .cafe {
   max-height: 400px;
+  box-shadow: 1px 1px 4px #43282d;
+}
+
+/* below either move the images, change the logo size, or display address info in footer */
+@media only screen and (min-width: 390px) {
+  .carousel-image {
+    margin-left: -60%;
+  }
+}
+
+@media only screen and (min-width: 435px) {
+  .carousel-image {
+    margin-left: -40%;
+  }
+}
+
+@media only screen and (min-width: 460px) {
+  .carousel-image {
+    margin-left: -10%;
+  }
+}
+
+@media only screen and (min-width: 506px) {
+  .carousel-image {
+    margin-left: -5%;
+  }
+}
+
+@media only screen and (min-width: 705px) {
+  .carousel-image {
+    margin-left: 0%;
+  }
 }
 
 @media only screen and (min-width: 769px) {

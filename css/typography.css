@@ -17,19 +17,29 @@ h1::first-letter {
   font-size: 5rem;
 }
 
+/* text on carousel slides */
 h2 {
   text-shadow: 1px 1px 2px #43282d;
 }
 
+/*each section title (i.e. Welcome) */
 h3 {
-  font-family: Merriweather;
+  font-family: Merriweather, Garamond, "Times New Roman", serif;
+  /* color: #b51c14; */
 }
 
-h5 {
+/* beverage subcategories */
+h4 {
+  color: #954b2e;
+}
+
+/* cupcake flavours */
+h4.card-text {
   font-size: 1.2em;
   color: #954b2e;
 }
 
+/* limited time only in carousel */
 p small {
   color: white;
 }
@@ -52,11 +62,13 @@ a:hover {
   color: #b51c14 !important;
 }
 
+/* social media */
 .icons {
   color: #43282d;
   font-size: 2em;
 }
 
+/* carousel arrows */
 .arrows {
   color: #43282d;
 }
