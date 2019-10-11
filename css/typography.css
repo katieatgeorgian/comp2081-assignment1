@@ -68,6 +68,10 @@ a:hover {
   font-size: 2em;
 }
 
+.icons:hover {
+  transform: rotate(25deg);
+}
+
 /* carousel arrows */
 .arrows {
   color: #43282d;
