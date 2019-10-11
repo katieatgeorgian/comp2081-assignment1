@@ -38,6 +38,9 @@ footer section ul {
   box-shadow: 1px 1px 4px #43282d;
 }
 
+.allergy {
+  box-shadow: -1px 1px 4px #43282d;
+}
 /* below either move the images, change the logo size, or display address info in footer */
 @media only screen and (min-width: 390px) {
   .carousel-image {

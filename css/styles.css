@@ -19,18 +19,18 @@ footer {
 
 /* line separators */
 .separatorRed {
-  height: 2px;
+  height: 2.5px;
   background-color: #b51c14;
   margin-top: 5%;
 }
 .separatorBrown {
-  height: 2px;
+  height: 2.5px;
   background-color: #954b2e;
   margin-top: 5%;
 }
 
 .separatorGrey {
-  height: 2px;
+  height: 2.5px;
   background-color: #43282d;
   margin-top: 5%;
 }

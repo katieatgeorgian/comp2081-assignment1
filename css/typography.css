@@ -49,9 +49,13 @@ footer {
 }
 
 nav a,
-.carousel-caption a,
+.carousel-caption a {
+  color: #954b2e !important;
+}
+
 .day {
   color: #954b2e !important;
+  font-size: 1.2em;
 }
 
 footer a {
